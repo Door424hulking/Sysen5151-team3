@@ -21,5 +21,5 @@ python app.py
 The current entry point uses only the Python standard library and the local
 stub modules. It does not require installing the planned web-framework
 dependencies or starting LM Studio. See
-[the expected stub result](docs/walking-skeleton.md#expected-stub-result)
+[the canned scenario and expected result](docs/walking-skeleton.md#run-the-canned-scenario)
 for the output of the fixed example.
