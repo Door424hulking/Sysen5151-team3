@@ -107,3 +107,56 @@ Assumptions and disposition:
 - Missing member, model, prompt, and review details remain explicitly unknown.
 - This documentation repair does not establish that the current model and
   walking skeleton have been reconciled; that requires a separate recorded check.
+
+## 2026-09-19 — UC.1 model and walking-skeleton alignment
+
+Requested by: Gengrui Jiang (`gj248-arch`).
+
+Generated and checked by: Codex agents acting on the authorized repair task.
+Assistant: Codex. Assistant model identifier: not recorded; confirmation is pending.
+
+Actual task prompts:
+[Retained alignment instructions](prompts/2026-09-19-alignment-repair.md).
+These are the retained instructions for this change, not a reconstruction of the
+historical scaffold-generation prompts.
+
+Model sources:
+- UC.1 and its ten business actions; original business Sequence root 184356.
+- Canonical Student Resident Asset 184315 and DormFix Asset 184313.
+- Internal Assets resident_interface 199592, ticket_service 199594,
+  intake_model 199595, and ticket_store 199596, contained by DormFix.
+- Saved UC.1.WS refinement Sequence root 199600, with eleven directed interactions.
+
+Changes:
+- Represented description, supplementation/draft review, and confirmed submission
+  as separate stub calls. Only the submission stage creates the canned ticket.
+- Replaced the provisional call list in docs/walking-skeleton.md with the numbered
+  refinement interactions, model links, and participant-to-module mapping.
+- Updated the README link to the current canned-scenario result section.
+
+Validation by Codex:
+- Inspected the saved Innoslate refinement and its eleven ordered messages,
+  sender/receiver assignments, and five participant lifelines.
+- Ran the actual app.main from the complete proposed checkout with Python 3.12.14.
+  A separate execution trace observed all eleven boundary/internal interactions.
+- Confirmed no ticket is created during description or supplementation; ticket
+  creation occurs exactly once after submission and receives the displayed draft.
+- Confirmed stdout presents the prompt, then the complete draft, then the ticket.
+- Compared the three changed Python files and documentation in a separate Codex
+  review. This AI review is not a human approval.
+
+Human reviewer: pending. Before merge, a team reviewer should compare the saved
+UC.1.WS diagram (199600), docs/walking-skeleton.md, and the three changed Python
+files, then record their name, date, and actual acceptance, changes, or rejections.
+
+Assumptions and disposition:
+- Description, location, access window, category, missing-field responses, and
+  ticket ID are fixed demonstration fixtures. The second-stage service deliberately
+  ignores its arguments and returns the documented complete draft.
+- Display followed by a separate submission call represents review/confirmation
+  in this scenario. There is no production confirmation validation, real model
+  call, persistence, authentication, error handling, retry, or logging.
+- The earlier provisional sequence is reconciled by this new refinement and call
+  list; the original business-level Sequence remains a separate system-boundary view.
+- Historical provenance gaps remain open. This later check does not establish
+  who generated or reviewed earlier work.
