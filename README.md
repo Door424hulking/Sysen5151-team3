@@ -1,0 +1,11 @@
+# DormFix
+
+## Operational Concept
+
+DormFix supports the complete routine student-housing maintenance process from initial issue reporting through repair confirmation. A Student Resident reports a routine, non-emergency maintenance issue through DormFix. DormFix assists the resident by structuring the report, extracting relevant information such as issue category, location, and availability, and identifying missing information that should be clarified before submission.
+
+After the resident reviews and submits the structured request, DormFix creates a shared maintenance ticket. A Property Manager reviews the ticket, confirms priority, assigns a Maintenance Technician, and monitors outstanding work. The Maintenance Technician reviews the assigned request, performs the repair, and records progress or completion notes. DormFix maintains the ticket status history throughout the process.
+
+After repair completion is recorded, the Student Resident reviews the result and confirms whether the issue has been resolved. A successfully resolved request is closed, while an unresolved request may be reopened for additional work.
+
+DormFix is limited to routine, non-emergency maintenance. Emergency response, automated dispatch, parts purchasing, billing, and rent-system integration are outside the current project scope.
