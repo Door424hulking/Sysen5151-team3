@@ -24,7 +24,17 @@ The selected technologies support rapid prototype development and provide a stra
 
 ## Model Hosting Decision
 
-The specific language-model runner and whether the model will be locally hosted or accessed through a hosted service have not yet been finalized.
+DormFix will initially use a locally hosted language model through LM Studio. The selected initial model is Llama 3.1 8B Instruct.
+
+## Rationale
+
+Local model hosting avoids dependence on an external hosted API during the initial prototype stage and reduces concerns about sending maintenance-request data outside the local environment. It also allows the team to develop and test the AI-assisted intake interface without API usage costs or external-service availability dependencies.
+
+The language model is an assistive component only. Its output remains editable by users, and DormFix provides a standard form-based reporting fallback if the model is unavailable.
+
+## What Would Change This Decision
+
+The team may reconsider local hosting if later testing shows that the selected model cannot satisfy required response quality, latency, hardware, or deployment constraints. A hosted model may then be evaluated as an alternative during a later trade study.
 
 ## What Would Change This Decision
 
