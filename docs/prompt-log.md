@@ -11,7 +11,7 @@ Prompt purpose:
 Assist with establishing the Chapter 1 repository scaffold and documentation structure based on the team's existing DormFix model and product concept.
 
 Reviewed by:
-Team 3
+Team 3 Zhengxu AN
 
 Assistant assumptions:
 No additional product features were promoted beyond the team's modeled scope. Repository artifacts were reviewed against the SYSEN 5151 Lab Manual before being added.
@@ -41,7 +41,7 @@ Constraints:
 - no functionality outside UC.1
 
 Reviewed by:
-Team 3
+Team 3 Zhengxu AN
 
 Assistant assumptions:
 The provisional UC.1 call order uses resident_interface, ticket_service, intake_model, and ticket_store. This call sequence must be reconciled with the final Innoslate Sequence Diagram when the diagram is completed.
