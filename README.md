@@ -9,3 +9,17 @@ After the resident reviews and submits the structured request, DormFix creates a
 After repair completion is recorded, the Student Resident reviews the result and confirms whether the issue has been resolved. A successfully resolved request is closed, while an unresolved request may be reopened for additional work.
 
 DormFix is limited to routine, non-emergency maintenance. Emergency response, automated dispatch, parts purchasing, billing, and rent-system integration are outside the current project scope.
+
+## Run the Chapter 2 walking skeleton
+
+With Python 3.12 available, run this command from the repository root:
+
+```sh
+python app.py
+```
+
+The current entry point uses only the Python standard library and the local
+stub modules. It does not require installing the planned web-framework
+dependencies or starting LM Studio. See
+[the expected stub result](docs/walking-skeleton.md#expected-stub-result)
+for the output of the fixed example.
